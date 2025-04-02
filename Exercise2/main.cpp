@@ -26,6 +26,12 @@ int main()
 	printout << fixed << std::setprecision(4) << "Rate of return of the portfolio:  " << rate << endl;
 	printout << fixed << std::setprecision(2) << "V: " << V << endl;
 	
+	cout << fixed << std::setprecision(2) << "S = " << S << ", n = " << n << endl;
+	cout << "w = " << ArrayToString(n,ptrW) << endl;
+	cout << "r = " << ArrayToString(n,ptrR) << endl;
+	cout << fixed << std::setprecision(4) << "Rate of return of the portfolio:  " << rate << endl;
+	cout << fixed << std::setprecision(2) << "V: " << V << endl;
+	
     return 0;
 }
 

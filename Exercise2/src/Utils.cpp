@@ -40,7 +40,7 @@ bool ImportVectors(const string& inputFilePath,
 		file.ignore();
 		}
     
-    return false;
+    return true;
 }
 
 string ArrayToString(const size_t& n,
@@ -75,3 +75,5 @@ double rate_of_return(const double S, const double V)
 	double rate = (V/S)-1;
 	return rate;
 }
+
+
